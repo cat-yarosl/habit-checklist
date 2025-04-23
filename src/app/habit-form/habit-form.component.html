@@ -1,0 +1,9 @@
+<form (ngSubmit)="onSubmit()">
+  <label for="name">Habit Name:</label>
+  <input type="text" id="name" [(ngModel)]="name" name="name" required>
+
+  <label for="category">Category:</label>
+  <input type="text" id="category" [(ngModel)]="category" name="category" required>
+
+  <button type="submit">Add Habit</button>
+</form>
